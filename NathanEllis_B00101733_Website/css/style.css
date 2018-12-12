@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-family: Helvetica;
+    margin: 0;
+	padding: 0;
+	background-color: beige;
+}
+
+
+h1 {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-align: center;
+	background-color: green;
+	color: white;
+}
+
+.nav {
+	background-color: green;
+	width: 100%;
+	margin: auto;
+	align-content: center
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 100%;
+}
+
+ul li {
+	float: left;
+	height: 40px;
+	background-color: green;
+	opacity: .8;
+	line-height: 40px; 
+	text-align: center;
+	width:33.33333333333333%; 
+}
+
+
+ul li a {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+}
+
+ul li a:hover {
+	background-color: mediumpurple;
+}
+
+ul li ul li {
+	display: none;
+	width: 100%;
+}
+
+ul li:hover ul li {
+	display: block;
+}
+
+.col5 {
+	width: 15%;
+	float: left;
+	padding-right: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+	height: 265px;
+}
+
+.col5:last-child {
+	padding-right: 0;
+}
+
+h2 {
+	background-color: green;
+	color: white;
+	align-content: center
+}
+
+h3 {
+	background-color: green;
+	margin-top: 0;
+}
+
+.eco {
+	margin-top: 350px;
+}
+
+.tud {
+	margin-top: 200px;
+}
+
+.main {
+	padding: 0;
+	margin: 0;
+}
+
+footer {
+	margin-top: 300px;
+	padding: 5px;
+}
+
+.time {
+	margin-top: 0px;
+	padding: 5px;
+	padding-left: 30px;
+}
+
+.eco img {
+	width: 50%;
+    float: right;
+	margin-top: -300px;
+}
+
+.eco p {
+	width: 45%;
+	font-size: 40px;
+	margin-left: 0;
+	align-content: center;
+	text-align: center;
+	font-size: 70px;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+p {
+	padding: 5px;
+}
+
+.bottom ul li {
+	width: 20%;
+}
